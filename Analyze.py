@@ -5,7 +5,7 @@ import numpy as np
 
 
 #Buka JSON FILE
-df = pd.read_json("your_posts_1.json")
+df = pd.read_json("PUT JSON FILE HERE!! json/YOUR JSON FILE")
 
 #Ganti Semua nama TimeStamp yang ada di JSON dengan Date
 df.rename(columns={'timestamp': 'date'}, inplace=True)
